@@ -1,0 +1,16 @@
+.DS_Store
+
+/.bsp/
+/.idea/
+/log/
+
+/project/target/
+/project/project/
+/target/
+
+/src/main/resources/application.conf
+/src/main/resources/cassandra_truststore.jks
+
+/read-api/target/
+/write-api/target/
+/projection/target/
