@@ -34,6 +34,13 @@ The system configuration assumes [CQRS](https://docs.microsoft.com/ja-jp/azure/a
     - "com.typesafe.slick" %% "slick" % slickVersion
     - "org.postgresql" % "postgresql" % postgresVersion
 - Projection
+  - It retrieves events written by write-api and builds a set of relational data in RDMS used by read-api.
+  - Dependency Libraries
+    - "com.typesafe.akka" %% "akka-persistence-typed" % akkaVersion
+    - "com.typesafe.akka" %% "akka-persistence-cassandra" % cassandraPersistenceVersion
+    - "com.typesafe.akka" %% "akka-cluster-sharding-typed" % akkaVersion
+    - "com.lightbend.akka" %% "akka-projection-eventsourced" % akkaProjectionVersion
+    - "com.lightbend.akka" %% "akka-projection-cassandra" % akkaProjectionVersion
 
 ### Databases
 - KVS for write-api.
