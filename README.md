@@ -9,7 +9,6 @@ The system configuration assumes [CQRS](https://docs.microsoft.com/ja-jp/azure/a
 + [http4s](https://http4s.org/)
 + [Slick3](https://scala-slick.org/doc/3.0.0/)
 + Event Sourcing
-+ DDD
 + CQRS
 
 ## System Architecture
